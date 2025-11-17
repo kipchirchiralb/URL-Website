@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+a,
+p {
+  color: hsl(257, 7%, 63%);
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(255, 11%, 22%);
+}
+h1 {
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+
+.greeenish-link {
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  overflow-x: hidden;
+}
+.intro > div {
+  flex: 1;
+}
+.intro img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 80px;
+}
+
+form {
+  background-color: hsl(257, 27%, 26%);
+  padding: 40px;
+  width: 70%;
+}
+.statistics {
+  background-color: hsla(180, 66%, 49%, 0.183);
+}
