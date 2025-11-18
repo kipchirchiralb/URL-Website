@@ -50,3 +50,18 @@ form {
 .statistics {
   background-color: hsla(180, 66%, 49%, 0.183);
 }
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  background-color: darkslateblue;
+}
+.stats {
+  text-align: center;
+  margin-top: 70px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
